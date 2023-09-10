@@ -1,4 +1,3 @@
-//Declaramos variables
 var operandoa;
 var operandob;
 var operacion;
@@ -25,41 +24,41 @@ function init(){
     var cero = document.getElementById('cero');
   }
   //Eventos de click
-  on.onclick=function(e){
-    resultado.value="0";
-  }
+   on.onclick=function(e){
+    resultado.value="0";}
   off.onclick=function(e){
     resultado.value="";
   }
+ 
   uno.onclick = function(e){
-    resultado.value = "1";
+    resultado.value =resultado.value + "1";
 }
 dos.onclick = function(e){
-    resultado.value = "2";
+    resultado.value = resultado.value +"2";
 }
 tres.onclick = function(e){
-    resultado.value = "3";
+    resultado.value = resultado.value +"3";
 }
 cuatro.onclick = function(e){
-    resultado.value = "4";
+    resultado.value =resultado.value + "4";
 }
 cinco.onclick = function(e){
-    resultado.value = "5";
+    resultado.value =resultado.value + "5";
 }
 seis.onclick = function(e){
-    resultado.value = "6";
+    resultado.value =resultado.value + "6";
 }
 siete.onclick = function(e){
-    resultado.value = "7";
+    resultado.value =resultado.value + "7";
 }
 ocho.onclick = function(e){
-    resultado.value = "8";
+    resultado.value =resultado.value + "8";
 }
 nueve.onclick = function(e){
-    resultado.value = "9";
+    resultado.value =resultado.value + "9";
 }
 cero.onclick = function(e){
-    resultado.value = "0";
+    resultado.value =resultado.value + "0";
 }
 reset.onclick = function(e){
     resetear();
@@ -67,30 +66,33 @@ reset.onclick = function(e){
 suma.onclick = function(e){
     operandoa = resultado.value;
     operacion = "+";
-   /* limpiar();*/
+  limpiar();
 }
 resta.onclick = function(e){
     operandoa = resultado.value;
     operacion = "-";
+    limpiar();
    
 }
 multiplicacion.onclick = function(e){
     operandoa = resultado.value;
     operacion = "*";
+    limpiar();
    
 }
 division.onclick = function(e){
     operandoa = resultado.value;
     operacion = "/";
+    limpiar();
  
 }
 igual.onclick = function(e){
     operandob = resultado.value;
     resolver();
 }
-/*function limpiar(){
+function limpiar(){
     resultado.value = "";
-  }*/
+  }
   
   function resetear(){
     resultado.value = "0";
