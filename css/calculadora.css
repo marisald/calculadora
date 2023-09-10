@@ -1,19 +1,36 @@
+ 
+.calculadora{
+    display: block;
+    box-sizing: border-box;
+    width: max-content;
+    padding: 5%;
+    background-color: rgb(188, 187, 185);
+    border-radius: 5%;  
+}
+
 span{
-    width: 350px;
-    height: 80px;
     text-align: right;
 }
 .visor{
+    display: block;
+    box-sizing: border-box;
+    width:100%;
+    background-color: rgb(246, 245, 243);
+    padding: 5%;
     font-size: 4rem;
-    text-align: right;
-    background-color: white;
-    color: rgb(79, 77, 77);
-    
+    text-align: right;     
     margin-bottom: 10px;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 2rem;
 }
-
+.btnOnoff{
+    background-color: rgba(101, 102, 103, 0.826);
+    font-size: 20px;
+    width: 100px;
+    height: 90px;
+    font-size: 28px;
+    border-radius: 15px;
+}
 .btnOpera{
     background-color: rgba(100, 148, 237, 0.826);
     font-size: 20px;
