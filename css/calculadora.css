@@ -1,0 +1,40 @@
+span{
+    width: 350px;
+    height: 80px;
+    text-align: right;
+}
+.visor{
+    font-size: 4rem;
+    text-align: right;
+    background-color: white;
+    color: rgb(79, 77, 77);
+    
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.btnOpera{
+    background-color: rgba(100, 148, 237, 0.826);
+    font-size: 20px;
+    width: 100px;
+    height: 90px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+.btnNumero{
+display: flexbox;
+    width: 90px;
+    height: 60px;
+    font-size: 28px;
+    border-radius: 15px;
+    background-color: rgb(177, 182, 182);
+}
+.btnRojo{
+    background-color: rgba(224, 53, 118, 0.826);
+    font-size: 20px;
+    width: 100px;
+    height: 90px;
+    font-size: 28px;
+    border-radius: 15px;
+}
